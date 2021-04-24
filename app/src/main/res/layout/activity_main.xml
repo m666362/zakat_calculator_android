@@ -7,6 +7,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nisab_tv"
+        android:textColor="#000"
+        android:layout_margin="14dp"
+        android:id="@+id/nisab_tv"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nisab_tv"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gold"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silver"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

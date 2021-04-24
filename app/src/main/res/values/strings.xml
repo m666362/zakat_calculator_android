@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Zakat_Calculator_Android</string>
     <string name="calculate_zakat_button">Calculate Zakat</string>
+    <string name="nisab_tv">Nisab Calculating Method</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
 </resources>
